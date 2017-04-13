@@ -23,6 +23,7 @@ GEM
       rack
     ruby (0.1.0)
     slop (3.6.0)
+    tilt (2.0.7)
 
 PLATFORMS
   ruby
@@ -34,6 +35,7 @@ DEPENDENCIES
   rack
   roda
   ruby
+  tilt
 
 BUNDLED WITH
    1.13.7

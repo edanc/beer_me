@@ -2,6 +2,7 @@ require "roda"
 require "brewery_db"
 require "pry" if ENV["RACK_ENV"] == "development"
 require 'dotenv/load'
+require 'tilt'
 
 class App < Roda
   plugin :json
